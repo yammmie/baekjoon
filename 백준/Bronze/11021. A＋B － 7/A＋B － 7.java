@@ -11,8 +11,10 @@ public class Main {
         
         for(int i = 0; i < num; i++) {
             st = new StringTokenizer(br.readLine(), " ");
-            sb.append("Case #" + (i + 1) + ": ");
-            sb.append((Integer.parseInt(st.nextToken())) + (Integer.parseInt(st.nextToken())) + "\n");
+            sb.append("Case #")
+                .append(i + 1)
+                .append(": ")
+                .append((Integer.parseInt(st.nextToken())) + (Integer.parseInt(st.nextToken())) + "\n");
         }
         
         System.out.println(sb);
