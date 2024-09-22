@@ -16,16 +16,12 @@ public class Main {
             nums[x] = 0;
         }
         
-        int i = 0;
-        int j = 0;
-        int k = 0;
-        
         for(int x = 0; x < m; x++) {
             st = new StringTokenizer(br.readLine(), " ");
             
-            i = Integer.parseInt(st.nextToken());
-            j = Integer.parseInt(st.nextToken());
-            k = Integer.parseInt(st.nextToken());
+            int i = Integer.parseInt(st.nextToken());
+            int j = Integer.parseInt(st.nextToken());
+            int k = Integer.parseInt(st.nextToken());
             
             for(int y = i - 1; y < j; y++) {
                 nums[y] = k;
