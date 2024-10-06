@@ -14,9 +14,9 @@ public class Main {
             int tmp = 0;
             
             if(n % b < 10)
-                tmp = n % b + '0';
+                tmp = (n % b) + '0';
             else
-                tmp = n % b + 'A' - 10;
+                tmp = (n % b) + 'A' - 10;
             
             sb.append((char)tmp);
             n /= b;
