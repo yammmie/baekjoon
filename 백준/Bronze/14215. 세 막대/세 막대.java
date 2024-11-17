@@ -12,7 +12,6 @@ public class Main {
         
         int max = Math.max(a, Math.max(b, c));
         
-        
         if(max < (a + b + c) - max)
             System.out.println(a + b + c);
         else
